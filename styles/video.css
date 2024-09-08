@@ -23,20 +23,23 @@
 
 .vgrid{
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    column-gap: 20px;
    row-gap: 40px;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
     .vgrid{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
+    }
+    .stats,.author{
+        display: inline-block;
     }
 }
 
-@media (min-width: 1400px) {
+@media (max-width: 900px) {
     .vgrid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
