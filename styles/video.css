@@ -30,19 +30,13 @@
 
 @media (max-width: 900px) {
     .vgrid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (min-width: 1400px) {
     .vgrid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width: 600px) {
-    .vgrid{
-        grid-template-columns: 1fr ;
     }
 }
 
