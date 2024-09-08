@@ -23,12 +23,12 @@
 
 .vgrid{
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr ; 
+   grid-template-columns: 1fr 1fr;
    column-gap: 20px;
    row-gap: 40px;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     .vgrid{
         grid-template-columns: 1fr 1fr 1fr;
     }
